@@ -1,6 +1,6 @@
 <h1 align="center">
     <img alt="GIF" src="./images/icon.png" width="12">
-    <a href="https://paulomvrech.github.io/wireframe-project/" target="_blank">Pokédex</a>
+    <a href="https://paulomvrech.github.io/pokedex/" target="_blank">Pokédex</a>
     <img alt="GIF" src="./images/icon.png" width="12">  
 </h1>
 
