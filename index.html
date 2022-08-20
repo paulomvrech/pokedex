@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./js/script.js"></script>
+
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <main>
+      <img src="#" alt="Pokemon" class="pokemon-image" />
+
+      <h1 class="pokemon-data">
+        <span class="pokemon-number"></span> -
+        <span class="pokemon-name"></span>
+      </h1>
+
+      <div class="pokemon-info">
+        <span class="label-info">
+          Height
+          <h3 class="info height"></h3>
+        </span>
+        <span class="label-info">
+          Weight
+          <h3 class="info weight"></h3>
+        </span>
+        <span class="label-info">
+          Category
+          <h3 class="info category">Seed</h3>
+        </span>
+        <span class="label-info">
+          Abilities
+          <h3 class="info abilities">Overgrow</h3>
+        </span>
+      </div>
+
+      <form class="form">
+        <input
+          type="search"
+          class="input-search"
+          placeholder="Nome ou Número"
+          required
+        />
+      </form>
+
+      <div class="buttons">
+        <button class="button btn-ant">Anterior</button>
+        <button class="button btn-pro">Próximo</button>
+      </div>
+
+      <img src="./images/pokedex.png" alt="Pokédex" class="pokedex" />
+    </main>
+  </body>
+</html>
